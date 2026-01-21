@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background-image: url("./heart_back.avif");
+    font-family: Valentine;
+}
+
+#content-container {
+    width: 400px;
+    height: 500px;
+    background-color: beige;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    opacity: .8;
+}
+
+#calculate {
+    width: 150px;
+    height: 50px;
+    background-color: plum;
+    border: none;
+    border-radius: 10px;
+}
+
+#result-percent {
+    font-size: 50px;
+}
+
+
+@font-face {
+    font-family: 'Valentine';
+    src: url('cheerful_holiday/cheerful_holiday.otf') format('truetype'); 
+}
+
